@@ -1,6 +1,6 @@
 import Post from "../models/postModel.js";
 import expressAsyncHandler from "express-async-handler";
-import User from "../models/UserModel.js";
+import User from "../models/userModel.js";
 
 // @desc CREATE post
 // @Route POST /api/post/
