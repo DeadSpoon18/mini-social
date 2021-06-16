@@ -1,0 +1,57 @@
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.nav-bar {
+  margin-left: auto;
+}
+
+.sidebar {
+  display: flex;
+}
+
+
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.each-post {
+  width: 70%
+}
+
+.follow-btn {
+  float: right;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+@media (max-width: 767px) {
+  .main {
+    flex: 0.8;
+  }
+  .each-post {
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .sidebar {
+    flex-wrap: wrap;
+  }
+
+}
